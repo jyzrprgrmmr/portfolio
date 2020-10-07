@@ -1,0 +1,35 @@
+.herowork-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+    background-image: url('../assets/images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.herowork-title{
+    font-size: 150px;
+    color:#FFEF00;
+    padding:0 30px;
+}
+
+.cta-work{
+    margin:0 30px;
+}
+
+@media screen and (max-width:768px){
+    .herowork-title{
+        font-size: 100px;
+    }
+}
+@media screen and (max-width:425px){
+    .herowork-title{margin:0 auto;
+        font-size: 70px;
+    }
+    .cta-work{
+        margin:0 auto;
+    }
+}

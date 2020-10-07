@@ -1,0 +1,21 @@
+.project-container{
+    margin-bottom: 80px;
+}
+
+.project-list{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.project-item{
+    height: 400px;
+    padding:30px;
+    margin: 30px;
+    width:300px;
+    text-align: center;
+    background: #FFEF00;
+}

@@ -1,0 +1,39 @@
+.carousel-container{
+    width:50%;
+    margin: 0 auto;
+    padding:0;
+    text-align: center;
+    
+}
+
+.carousel{
+    background: #FFEF00;
+    padding:30px;
+    display: flex;
+    justify-content:center;
+}
+
+.car-img{
+    min-height:400px;
+    max-height:400px;
+    max-width:400px;
+    width:auto;
+    min-width: 300px;
+    margin:0 auto;
+}
+
+@media screen and (max-width:768px){
+    .carousel-container{
+        width:unset;
+    }
+}
+
+@media screen and (max-width:768px){
+    .car-img{
+        min-height:400px;
+        max-height:300px;
+        width:auto;
+        min-width: 300px;
+        margin:0 auto;
+    }
+}

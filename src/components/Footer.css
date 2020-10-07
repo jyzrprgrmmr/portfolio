@@ -1,0 +1,39 @@
+.footer-container{
+    position: fixed;
+    top:95vh;
+    height:5vh;
+    z-index:10;
+    background: #000;
+    width:100%;
+    color:#fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-container ul {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+    margin: 0 10px;
+}
+
+.social img{
+    height:3vh;
+    filter:invert(100%);
+    
+}
+
+.social:hover{
+    opacity: .8;
+}
