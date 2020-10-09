@@ -96,10 +96,6 @@ nav{
     color:inherit
 }
 
-.links:last-child{
-    display: none;
-}
-
 .links:not(:last-child):after{
     content: "";
     display: block;

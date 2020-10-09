@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
             <div className="nav-container">
                 <nav>
-                   <Link to="/" className="brand">
+                   <Link to="" className="brand">
                     <img src={logo} alt="logo" className="logo"/>
                     <h2 className="logo-name">JYZR<span>GND</span></h2>
                 </Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <ul className={click ? 'menu-links open' : 'menu-links'}>
                     <Link to="/about" className="links" onClick ={handleClick}><li>ABOUT</li></Link>
                     <Link to="/work" className="links" onClick ={handleClick}><li>WORK</li></Link>
-                    <li className="links" onClick ={handleClick}>SAY HELLO</li>
+                    <Link to="/contact" className="links" onClick ={handleClick}><li>SAY HELLO</li></Link>
                 </ul> 
                 </nav>
                 

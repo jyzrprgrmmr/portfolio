@@ -1,5 +1,6 @@
 import React from 'react'
 import './HeroAbout.css'
+import {Link} from "react-router-dom"
 const HeroAbout = () => {
     return (
         <div className="hero-cont">
@@ -10,7 +11,7 @@ const HeroAbout = () => {
             <div className="quote">
                 <h1 className="heading">"You won't hit the target unless you aim and release an arrow..."</h1>
                 <p className="author">~jyzrgnd</p>
-                <button className="cta">Message Me</button>
+                <Link to="/contact"><button className="cta">Message Me</button></Link>
             </div>
         </div>
     )

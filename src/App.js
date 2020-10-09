@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch,Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Particles from 'react-particles-js';
 import Footer from './components/Footer'
 import Work from './components/pages/Work';
+import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
-      <Router className="container">
+      <Router className="container" basename={process.env.PUBLIC_URL}>
       <Particles canvasClassName="particles"
                 params={{
                   "particles": {
@@ -29,8 +30,9 @@ function App() {
         <Navbar/>
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/about" component={About}/>
-          <Route path="/work" component={Work}/>
+          <Route path="/about" exact component={About}/>
+          <Route path="/work" exact component={Work}/>
+          <Route path="/contact" exact component={Contact}/>
         </Switch>
         
       </Router>

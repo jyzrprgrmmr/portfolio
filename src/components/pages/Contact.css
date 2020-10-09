@@ -1,0 +1,49 @@
+.contact-form{
+    padding-top:20vh;
+    height:80vh;
+    width:30%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    height:30px;
+    margin-bottom:10px;
+}
+
+.form-control1{
+    margin-bottom:10px;
+    height:unset!important;
+}
+
+
+
+.contact-form label{
+    font-weight:700;
+}
+
+.contact-form button{
+    width:100px;
+    height:30px;
+    border:none;
+    color:#000;
+    background: #FFEF00;
+    font-weight: 600;
+    text-transform:uppercase;
+    right:0;
+}
+
+@media screen and (max-width:768px){
+    .contact-form{
+        width:50%;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .contact-form{
+        width:70%;
+    }
+    
+}
