@@ -11,7 +11,7 @@ const Contact = () => {
 
         emailjs.sendForm('service_ievmqr2', 'template_753tn33', e.target, 'user_oKxgPcNXobV2gdxgosmPi')
           .then((result) => {
-              console.log(result.text);
+              alert("Thank you for messaging. You will receive my response soon. God bless")
           }, (error) => {
               console.log(error.text);
           }); 
