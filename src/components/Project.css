@@ -12,10 +12,14 @@
 }
 
 .project-item{
-    height: 400px;
+    height: 500px;
     padding:30px;
     margin: 30px;
     width:300px;
     text-align: center;
     background: #FFEF00;
+}
+
+.project{
+    width:280px;
 }
