@@ -11,7 +11,8 @@ import Contact from './components/pages/Contact';
 function App() {
   return (
     <>
-      <Router className="container" basename={process.env.PUBLIC_URL}>
+     {/* basename={process.env.PUBLIC_URL} */}
+      <Router className="container">
       <Particles canvasClassName="particles"
                 params={{
                   "particles": {
